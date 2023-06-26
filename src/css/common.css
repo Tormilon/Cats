@@ -1,0 +1,53 @@
+/* Оформлення вибірки породи кота */
+.breed-select {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  /* Стилі для завантаження даних */
+  .loader {
+    display: none;
+    font-size: 18px;
+  }
+  
+  /* Стилі для повідомлення про помилку */
+  .error {
+    display: none;
+    color: red;
+    font-size: 18px;
+  }
+  
+  /* Стилі для інформації про кота */
+  .cat-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .cat-info img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .cat-info-content {
+    flex-grow: 1;
+  }
+  
+  .cat-info h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .cat-info p {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  
